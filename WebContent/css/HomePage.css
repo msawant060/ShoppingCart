@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	border-spacing: 20px;
+
+}
+
+.container{
+	background-color: white;
+}
+
+tr {
+	border: 20px solid #ffffff;
+	border-bottom-style: 0.5px;
+}
+
+.checkbox{
+	width:15px;
+}
+td, th {
+	border: 0 none;
+	background-color: #c8c8c8;
+	text-align: left;
+	padding: 8px;
+	font-family: 'Lato', sans-serif;
+	width: 100px;
+	border-style: inset;
+	height: 40px;
+}
+
+#button {
+	display: inherit;
+	background-color: #808080;
+	padding: 15px;
+	float: right; width : auto;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	position: relative;
+	width: auto;
+}
+
+body {
+	background-color: white;
+}
