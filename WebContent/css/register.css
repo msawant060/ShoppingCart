@@ -1,0 +1,39 @@
+
+table{
+align : center;
+margin : auto;
+}
+
+
+.box{
+width :420px;
+height :350px;
+text-align:center;
+background :#f0f0f0;
+border-sizing :border-box;
+top:30%;
+right:10%;
+color:#000;
+margin: 10px 100px;
+position :absolute;
+transform :Translate(-50%,-50%);
+}
+h4{
+ text-align: center;
+ font-style:bold;
+ font-size:20px;
+ }
+ tr{
+ text-align:justify;
+ 
+ font-size:16px;
+ }
+.one{
+ background-color :MediumSeaGreen;
+	height:40px;
+	margin: 5px 20px;
+	width: 100px;
+	border : MediumSeaGreen
+	
+ }
+ 

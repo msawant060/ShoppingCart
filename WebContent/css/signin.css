@@ -1,0 +1,42 @@
+.container {
+	width: 420px;
+	height: 350px;
+	text-align: center;
+	background: #f0f0f0;
+	transform: translate(500px, 25%);
+}
+
+input[type=text], input[type=password] {
+	font-family: times new roman, bold, 16;
+	width: 50%;
+	padding: 10px 10px;
+	width: 300px;
+	display: inline-block;
+	margin: 20px, 20px;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+}
+
+#submit {
+	width: 300px;
+	background-color: purple;
+	height: 35px;
+	color: white;
+	font-size: 20px;
+	border: none;
+}
+
+label {
+	font-size: 18px;
+	margin: 5px 20px;
+	align: center;
+	font-weight: bold;
+}
+
+#right {
+	float: right;
+}
+
+#left {
+	float: left;
+}
