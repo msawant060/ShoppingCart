@@ -2,7 +2,7 @@
 	width: 420px;
 	height: 350px;
 	text-align: center;
-	background: #f0f0f0;
+	background: #ffff80;
 	transform: translate(500px, 25%);
 }
 
@@ -19,7 +19,7 @@ input[type=text], input[type=password] {
 
 #submit {
 	width: 300px;
-	background-color: purple;
+	background-color: #008070;
 	height: 35px;
 	color: white;
 	font-size: 20px;

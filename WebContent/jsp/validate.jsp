@@ -11,23 +11,32 @@
 <body>
 
 	<%
-	
 		String userName = request.getParameter("email");
 		String password = request.getParameter("password");
-		
+
 		boolean status = Database.canloginUser(userName, password);
 
 		RequestDispatcher reqD = null;
 		if (status == true) {
-			reqD = request.getRequestDispatcher("/ProductsServlet");
+	%>
+	<script language="javascript">
+		alert("Login successful!!!");
+	</script>
+	<%
+		reqD = request.getRequestDispatcher("/ProductsServlet");
 			reqD.forward(request, response);
 		} else {
 	%>
-	Invalid User
+	<script language="javascript">
+		alert("Login Unsuccessful!!!");
+	</script>
 	<%
 		response.sendRedirect("/ShoppingCart/jsp/signin.jsp");
 		}
 		out.print(status);
 	%>
 </body>
+
+
+
 </html>
